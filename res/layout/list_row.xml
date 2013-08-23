@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70dip" >
+
+    <TextView
+        android:id="@+id/trainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Train: 1565" />
+    
+    <TextView
+        android:id="@+id/arriveTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignLeft="@+id/arriveTime"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        
+        android:text="Arrives at: 5:11pm" />
+    
+    <TextView
+        android:id="@+id/departTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        
+        android:layout_below="@+id/arriveTime"
+        android:text="Departs at: 2:34pm" />
+
+    <TextView
+        android:id="@+id/stationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/trainText"
+        android:text="Currently At: University City" />
+
+
+</RelativeLayout>
